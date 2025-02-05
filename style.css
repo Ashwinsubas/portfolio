@@ -1,0 +1,170 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Display", serif;
+}
+#section
+{
+    position: relative;
+    width: 100%;
+    /* height: 20vh;  (height from the nav bar to next div) */
+}
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 0px 100px;
+}
+nav ul li 
+{
+ list-style: none;
+ display: inline;
+ margin: 0px 30px 0px 0px;
+ 
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 2ch;
+    font-weight: 500;
+}
+nav ul li a:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+.home
+{
+    margin: 50px 0px 0px 50px;
+    position: relative;
+}
+.home-content
+{
+    margin-top: 185px;
+}
+.homehead h1
+{
+    font-family: "Amatic SC", serif;
+    font-size: 60px;
+}
+.homehead h1 span
+{
+    font-family: "Amatic SC", serif;
+    color: orange;
+}
+.para
+{
+    line: height 1;
+}
+
+#download
+{
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    margin-top: 20px;
+}
+.home-image
+{
+    height: 75%;
+    width: 45%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+}
+.group
+{
+    position: absolute;
+    height: 200%;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-100%);
+    transition: bottom 1.5s, left 3s;
+   
+
+}
+.home-image:hover #shape
+{
+    bottom: 50px;
+}
+.home-image:hover #girl
+{
+    left: 60%
+}
+#about
+{
+    margin:10% 0 0 0 ;
+}
+.intro
+{
+    color: green;
+}
+.sectionid
+{
+    text-align: center;
+}
+.aboutme h2
+{
+    
+    font-size: 30px;
+}
+.intro
+{
+    font-size: 20px;
+}
+.abtimg
+{
+    width: 80%;
+}
+.imgab
+{
+    /* margin: 50px; */
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+.img4
+{
+    width: 80%;
+}
+.parax
+{
+    text-align: justify;
+    margin-right: 20px;
+}
+.info
+{
+    margin-top: 10px;
+}
+.info span
+{
+    margin-left: 5px;
+}
+.scale
+{
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    height: 5px;
+    background-color: orange;
+}
+.html1
+{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.skill-div
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
